@@ -10,6 +10,8 @@ Based on [Digital Twins](https://github.com/GeospatialResearch/Digital-Twins) an
 
 1. fill the `.env` file referring to the `.env.example`.
 
+1. open `docker-compose.yml` and replace path `../datastorage` in `- "../datastorage:/home/jovyan/datastorage"` to real datastorage path.
+
 1. execute `docker-compose build`.
 
 1. execute `docker-compose up`.

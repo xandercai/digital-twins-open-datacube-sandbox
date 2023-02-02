@@ -21,3 +21,9 @@ Based on [Digital Twins](https://github.com/GeospatialResearch/Digital-Twins) an
 ## Remaining problems
 
 1. running the BG_FLood model in the container.
+
+1. the postgres database report below errors when indexing stac data using `stac_api_to_odc()` function.
+```
+  ERROR:  could not serialize access due to read/write dependencies among transactions
+  DETAIL:  Reason code: Canceled on identification as a pivot, during commit attempt.
+```
